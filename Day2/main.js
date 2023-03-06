@@ -25,7 +25,7 @@ input.addEventListener('keyup',(event) => {                     //tao 1 sự ki�
         inputList.appendChild(checkbox);            //thêm phần từ checkbox vào phần tử li
         inputList.appendChild(newTodo);             //thêm đoạn văn tạo ra từ chuỗi văn bản nhập vào vào phần từ li 
         inputList.appendChild(removeBtn);           //Thêm thẻ span tạo ra vào phần tử li
-        inputList.classList.add('li', 'border-b-[2px]', 'border-solid', 'px-[60px]', 'py-[16px]', 'bor-border');    //thêm cho phần tử li một số lớp css
+        inputList.classList.add('li', 'border-b-[2px]', 'border-solid', 'px-[60px]', 'py-[16px]', 'bor-border', 'float');    //thêm cho phần tử li một số lớp css
         list.append(inputList);   //thêm phân tử li vừa tạo vào ds
         input.value = '';         //xóa nội dung được nhập vào sau khi người dùng thêm 1 ds mới 
     }
